@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="eda3912f82324de892ea317a2052b3bc" Name="Diagram1">
+        <EntityTypeShape EntityType="ModelOOOGoodHome.Category" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelOOOGoodHome.Manufacture" Width="1.5" PointX="0.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelOOOGoodHome.Order" Width="1.5" PointX="3" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelOOOGoodHome.OrderCompound" Width="1.5" PointX="5.25" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelOOOGoodHome.Product" Width="1.5" PointX="3" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelOOOGoodHome.Role" Width="1.5" PointX="1.5" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelOOOGoodHome.Status" Width="1.5" PointX="0.75" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelOOOGoodHome.Supplier" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ModelOOOGoodHome.User" Width="1.5" PointX="0.75" PointY="12" IsExpanded="true" />
+        <AssociationConnector Association="ModelOOOGoodHome.FK_Product_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelOOOGoodHome.FK_Product_Manufacture" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelOOOGoodHome.FK_Order_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelOOOGoodHome.FK_Order_User" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelOOOGoodHome.FK_OrderCompound_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelOOOGoodHome.FK_OrderCompound_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelOOOGoodHome.FK_Product_Supplier" ManuallyRouted="false" />
+        <AssociationConnector Association="ModelOOOGoodHome.FK_User_Role" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
